@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 125);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
     <item row="2" column="3">
@@ -28,6 +31,10 @@
         <family>Segoe UI Variable Small</family>
         <pointsize>26</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 155);
+color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string/>
@@ -48,6 +55,10 @@
         <pointsize>26</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 155);
+color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
        <string/>
       </property>
@@ -66,6 +77,10 @@
         <family>Segoe UI Variable Small</family>
         <pointsize>26</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 155);
+color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string/>
@@ -86,6 +101,10 @@
         <pointsize>26</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 155);
+color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
        <string/>
       </property>
@@ -104,6 +123,10 @@
         <family>Segoe UI Variable Small</family>
         <pointsize>26</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 155);
+color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string/>
@@ -124,6 +147,10 @@
         <pointsize>26</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 155);
+color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
        <string/>
       </property>
@@ -142,6 +169,10 @@
         <family>Segoe UI Variable Small</family>
         <pointsize>26</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 155);
+color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string/>
@@ -162,6 +193,10 @@
         <pointsize>26</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 155);
+color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
        <string/>
       </property>
@@ -180,6 +215,10 @@
         <family>Segoe UI Variable Small</family>
         <pointsize>26</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 155);
+color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string/>
@@ -200,6 +239,10 @@
         <pointsize>26</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 155);
+color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
        <string/>
       </property>
@@ -218,6 +261,10 @@
         <family>Segoe UI Variable Small</family>
         <pointsize>26</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 155);
+color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string/>
@@ -238,6 +285,10 @@
         <pointsize>26</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 155);
+color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
        <string/>
       </property>
@@ -256,6 +307,10 @@
         <family>Segoe UI Variable Small</family>
         <pointsize>26</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 155);
+color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string/>
@@ -276,6 +331,10 @@
         <pointsize>26</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 155);
+color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
        <string/>
       </property>
@@ -295,6 +354,10 @@
         <pointsize>26</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 155);
+color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
        <string/>
       </property>
@@ -313,6 +376,10 @@
         <family>Segoe UI Variable Small</family>
         <pointsize>26</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 155);
+color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string/>

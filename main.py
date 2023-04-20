@@ -28,11 +28,18 @@ class MainWindow(QMainWindow):
                     self.empty_i = i
                     self.empty_j = j
 
-                
     def play(self, i, j):
-        if (i == self.empty_i and j == self.empty_j - 1 or j == self.empty_j + 1) or \
-            (j == self.empty_j and i == self.empty_i - 1 or i == self.empty_i + 1):
-            ...
+        if (i == self.empty_i and abs(j - self.empty_j) == 1) or \
+                (j == self.empty_j and abs(i - self.empty_i) == 1):
+            self.buttons[self.empty_i][self.empty_j].setText(
+                self.buttons[i][j].text())
+            self.buttons[i][j].setText("16")
+
+            self.buttons[self.empty_i][self.empty_j].setVisible(True)
+            self.buttons[i][j].setVisible(False)
+
+            self.empty_i = i
+            self.empty_j = j
 
         else:
             pass
