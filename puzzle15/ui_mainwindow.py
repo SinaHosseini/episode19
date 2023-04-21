@@ -23,7 +23,7 @@ class Ui_MainWindow(object):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
         MainWindow.resize(606, 600)
-        MainWindow.setStyleSheet(u"background-color: rgb(0, 0, 125);")
+        MainWindow.setStyleSheet(u"background-color: rgb(85, 0, 255);")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.gridLayout = QGridLayout(self.centralwidget)
@@ -39,8 +39,8 @@ class Ui_MainWindow(object):
         font.setFamilies([u"Segoe UI Variable Small"])
         font.setPointSize(26)
         self.btn_8.setFont(font)
-        self.btn_8.setStyleSheet(u"background-color: rgb(0, 0, 155);\n"
-"color: rgb(255, 255, 255);")
+        self.btn_8.setStyleSheet(u"background-color: rgb(63, 125, 188);\n"
+"color: rgb(0, 0, 0);")
 
         self.gridLayout.addWidget(self.btn_8, 2, 3, 1, 1)
 
@@ -49,8 +49,8 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.btn_7.sizePolicy().hasHeightForWidth())
         self.btn_7.setSizePolicy(sizePolicy)
         self.btn_7.setFont(font)
-        self.btn_7.setStyleSheet(u"background-color: rgb(0, 0, 155);\n"
-"color: rgb(255, 255, 255);")
+        self.btn_7.setStyleSheet(u"background-color: rgb(63, 125, 188);\n"
+"color: rgb(0, 0, 0);")
 
         self.gridLayout.addWidget(self.btn_7, 2, 2, 1, 1)
 
@@ -59,8 +59,8 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.btn_2.sizePolicy().hasHeightForWidth())
         self.btn_2.setSizePolicy(sizePolicy)
         self.btn_2.setFont(font)
-        self.btn_2.setStyleSheet(u"background-color: rgb(0, 0, 155);\n"
-"color: rgb(255, 255, 255);")
+        self.btn_2.setStyleSheet(u"background-color: rgb(63, 125, 188);\n"
+"color: rgb(0, 0, 0);")
 
         self.gridLayout.addWidget(self.btn_2, 0, 1, 1, 1)
 
@@ -69,8 +69,8 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.btn_1.sizePolicy().hasHeightForWidth())
         self.btn_1.setSizePolicy(sizePolicy)
         self.btn_1.setFont(font)
-        self.btn_1.setStyleSheet(u"background-color: rgb(0, 0, 155);\n"
-"color: rgb(255, 255, 255);")
+        self.btn_1.setStyleSheet(u"background-color: rgb(63, 125, 188);\n"
+"color: rgb(0, 0, 0);")
 
         self.gridLayout.addWidget(self.btn_1, 0, 0, 1, 1)
 
@@ -79,8 +79,8 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.btn_6.sizePolicy().hasHeightForWidth())
         self.btn_6.setSizePolicy(sizePolicy)
         self.btn_6.setFont(font)
-        self.btn_6.setStyleSheet(u"background-color: rgb(0, 0, 155);\n"
-"color: rgb(255, 255, 255);")
+        self.btn_6.setStyleSheet(u"background-color: rgb(63, 125, 188);\n"
+"color: rgb(0, 0, 0);")
 
         self.gridLayout.addWidget(self.btn_6, 2, 1, 1, 1)
 
@@ -89,8 +89,8 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.btn_4.sizePolicy().hasHeightForWidth())
         self.btn_4.setSizePolicy(sizePolicy)
         self.btn_4.setFont(font)
-        self.btn_4.setStyleSheet(u"background-color: rgb(0, 0, 155);\n"
-"color: rgb(255, 255, 255);")
+        self.btn_4.setStyleSheet(u"background-color: rgb(63, 125, 188);\n"
+"color: rgb(0, 0, 0);")
 
         self.gridLayout.addWidget(self.btn_4, 0, 3, 1, 1)
 
@@ -99,8 +99,8 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.btn_11.sizePolicy().hasHeightForWidth())
         self.btn_11.setSizePolicy(sizePolicy)
         self.btn_11.setFont(font)
-        self.btn_11.setStyleSheet(u"background-color: rgb(0, 0, 155);\n"
-"color: rgb(255, 255, 255);")
+        self.btn_11.setStyleSheet(u"background-color: rgb(63, 125, 188);\n"
+"color: rgb(0, 0, 0);")
 
         self.gridLayout.addWidget(self.btn_11, 3, 2, 1, 1)
 
@@ -109,8 +109,8 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.btn_12.sizePolicy().hasHeightForWidth())
         self.btn_12.setSizePolicy(sizePolicy)
         self.btn_12.setFont(font)
-        self.btn_12.setStyleSheet(u"background-color: rgb(0, 0, 155);\n"
-"color: rgb(255, 255, 255);")
+        self.btn_12.setStyleSheet(u"background-color: rgb(63, 125, 188);\n"
+"color: rgb(0, 0, 0);")
 
         self.gridLayout.addWidget(self.btn_12, 3, 3, 1, 1)
 
@@ -119,8 +119,8 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.btn_10.sizePolicy().hasHeightForWidth())
         self.btn_10.setSizePolicy(sizePolicy)
         self.btn_10.setFont(font)
-        self.btn_10.setStyleSheet(u"background-color: rgb(0, 0, 155);\n"
-"color: rgb(255, 255, 255);")
+        self.btn_10.setStyleSheet(u"background-color: rgb(63, 125, 188);\n"
+"color: rgb(0, 0, 0);")
 
         self.gridLayout.addWidget(self.btn_10, 3, 1, 1, 1)
 
@@ -129,8 +129,8 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.btn_9.sizePolicy().hasHeightForWidth())
         self.btn_9.setSizePolicy(sizePolicy)
         self.btn_9.setFont(font)
-        self.btn_9.setStyleSheet(u"background-color: rgb(0, 0, 155);\n"
-"color: rgb(255, 255, 255);")
+        self.btn_9.setStyleSheet(u"background-color: rgb(63, 125, 188);\n"
+"color: rgb(0, 0, 0);")
 
         self.gridLayout.addWidget(self.btn_9, 3, 0, 1, 1)
 
@@ -139,8 +139,8 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.btn_5.sizePolicy().hasHeightForWidth())
         self.btn_5.setSizePolicy(sizePolicy)
         self.btn_5.setFont(font)
-        self.btn_5.setStyleSheet(u"background-color: rgb(0, 0, 155);\n"
-"color: rgb(255, 255, 255);")
+        self.btn_5.setStyleSheet(u"background-color: rgb(63, 125, 188);\n"
+"color: rgb(0, 0, 0);")
 
         self.gridLayout.addWidget(self.btn_5, 2, 0, 1, 1)
 
@@ -149,8 +149,8 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.btn_3.sizePolicy().hasHeightForWidth())
         self.btn_3.setSizePolicy(sizePolicy)
         self.btn_3.setFont(font)
-        self.btn_3.setStyleSheet(u"background-color: rgb(0, 0, 155);\n"
-"color: rgb(255, 255, 255);")
+        self.btn_3.setStyleSheet(u"background-color: rgb(63, 125, 188);\n"
+"color: rgb(0, 0, 0);")
 
         self.gridLayout.addWidget(self.btn_3, 0, 2, 1, 1)
 
@@ -159,8 +159,8 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.btn_13.sizePolicy().hasHeightForWidth())
         self.btn_13.setSizePolicy(sizePolicy)
         self.btn_13.setFont(font)
-        self.btn_13.setStyleSheet(u"background-color: rgb(0, 0, 155);\n"
-"color: rgb(255, 255, 255);")
+        self.btn_13.setStyleSheet(u"background-color: rgb(63, 125, 188);\n"
+"color: rgb(0, 0, 0);")
 
         self.gridLayout.addWidget(self.btn_13, 4, 0, 1, 1)
 
@@ -169,8 +169,8 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.btn_14.sizePolicy().hasHeightForWidth())
         self.btn_14.setSizePolicy(sizePolicy)
         self.btn_14.setFont(font)
-        self.btn_14.setStyleSheet(u"background-color: rgb(0, 0, 155);\n"
-"color: rgb(255, 255, 255);")
+        self.btn_14.setStyleSheet(u"background-color: rgb(63, 125, 188);\n"
+"color: rgb(0, 0, 0);")
 
         self.gridLayout.addWidget(self.btn_14, 4, 1, 1, 1)
 
@@ -179,8 +179,8 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.btn_15.sizePolicy().hasHeightForWidth())
         self.btn_15.setSizePolicy(sizePolicy)
         self.btn_15.setFont(font)
-        self.btn_15.setStyleSheet(u"background-color: rgb(0, 0, 155);\n"
-"color: rgb(255, 255, 255);")
+        self.btn_15.setStyleSheet(u"background-color: rgb(63, 125, 188);\n"
+"color: rgb(0, 0, 0);")
 
         self.gridLayout.addWidget(self.btn_15, 4, 2, 1, 1)
 
@@ -189,8 +189,8 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.btn_16.sizePolicy().hasHeightForWidth())
         self.btn_16.setSizePolicy(sizePolicy)
         self.btn_16.setFont(font)
-        self.btn_16.setStyleSheet(u"background-color: rgb(0, 0, 155);\n"
-"color: rgb(255, 255, 255);")
+        self.btn_16.setStyleSheet(u"background-color: rgb(63, 125, 188);\n"
+"color: rgb(0, 0, 0);")
 
         self.gridLayout.addWidget(self.btn_16, 4, 3, 1, 1)
 

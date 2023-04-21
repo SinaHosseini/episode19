@@ -1,7 +1,7 @@
 import sys
 import random
 from functools import partial
-from PySide6.QtWidgets import QApplication, QMainWindow
+from PySide6.QtWidgets import QApplication, QMainWindow, QMessageBox
 from ui_mainwindow import Ui_MainWindow
 
 
@@ -18,11 +18,13 @@ class MainWindow(QMainWindow):
                             self.ui.btn_11, self.ui.btn_12],
                         [self.ui.btn_13, self.ui.btn_14, self.ui.btn_15, self.ui.btn_16]]
 
+        self.numbers = list(range(1, 17))
         for i in range(4):
             for j in range(4):
-                r = random.randint(1, 17)
+                r = random.choice(self.numbers)
                 self.buttons[i][j].setText(str(r))
                 self.buttons[i][j].clicked.connect(partial(self.play, i, j))
+                self.numbers.remove(r)
                 if r == 16:
                     self.buttons[i][j].setVisible(False)
                     self.empty_i = i
@@ -41,8 +43,20 @@ class MainWindow(QMainWindow):
             self.empty_i = i
             self.empty_j = j
 
-        else:
-            pass
+        if self.check_win() == True:
+            msg_box = QMessageBox()
+            msg_box.setText("Congratulation, You win🥳")
+            msg_box.exec()
+
+    def check_win(self):
+        index = 1
+        for i in range(4):
+            for j in range(4):
+                if int(self.buttons[i][j].text()) != index:
+                    return False
+                index += 1
+
+        return True
 
 
 app = QApplication(sys.argv)
