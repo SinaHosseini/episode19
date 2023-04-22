@@ -54,9 +54,10 @@ class MainWindow(QMainWindow):
         msg_box.exec()
 
 
-app = QApplication(sys.argv)
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
 
-main_window = MainWindow()
-main_window.show()
+    main_window = MainWindow()
+    main_window.show()
 
-app.exec()
+    app.exec()

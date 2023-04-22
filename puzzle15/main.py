@@ -59,9 +59,10 @@ class MainWindow(QMainWindow):
         return True
 
 
-app = QApplication(sys.argv)
-
-main_window = MainWindow()
-main_window.show()
-
-app.exec()
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    
+    main_window = MainWindow()
+    main_window.show()
+    
+    app.exec()
