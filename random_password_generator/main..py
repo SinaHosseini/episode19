@@ -44,6 +44,8 @@ class MainWindow(QMainWindow):
 
     def reset(self):
         self.ui.txt_box.setText("")
+        self.password = ""
+        self.password_mode()
 
     def about(self):
         msg_box = QMessageBox()
